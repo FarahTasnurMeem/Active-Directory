@@ -15,6 +15,10 @@ from:
 
 Cracking the hash:
 ------------------------------
+Note: 
+![image](https://github.com/user-attachments/assets/ff43987f-db9a-46ce-9166-b99b419ed069)
+
+
 
 
 
