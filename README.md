@@ -29,6 +29,14 @@ Cracked Password is here:
 
 The best defense against LLMNR and NBT-NS poisoning is to disable these protocols.
 
+## Why Disable LLMNR and NBT-NS?
+
+When a system attempts to resolve a hostname, it first queries **DNS**.  
+- If **DNS fails** to recognize the hostname, the system falls back to **LLMNR** (Link-Local Multicast Name Resolution).  
+- If **LLMNR does not respond**, the system then attempts to resolve the name using **NBT-NS** (NetBIOS Name Service).  
+
+This fallback behavior makes LLMNR and NBT-NS vulnerable to **poisoning attacks**, where an attacker on the same network can respond with a malicious IP address, leading to credential theft or Man-in-the-Middle (MitM) attacks.
+
 ### Disable LLMNR:
 1. Open the **Group Policy Editor** (`gpedit.msc`).
 2. Navigate to:  Local Computer Policy > Computer Configuration > Administrative Templates > Network > DNS Client
