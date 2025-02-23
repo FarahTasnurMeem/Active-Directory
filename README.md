@@ -23,6 +23,17 @@ Cracked Password is here:
 ![image](https://github.com/user-attachments/assets/4997b66f-d12f-4ab6-8b6a-d72034514810)
 ![image](https://github.com/user-attachments/assets/3e5ab67c-043d-4d9f-a56f-cb6deb318b4d)
 
+# Mitigation Strategies for LLMNR & NBT-NS Poisoning
+
+## Disable LLMNR and NBT-NS (Recommended)
+
+The best defense against LLMNR and NBT-NS poisoning is to disable these protocols.
+
+### Disable LLMNR:
+1. Open the **Group Policy Editor** (`gpedit.msc`).
+2. Navigate to:  Local Computer Policy > Computer Configuration > Administrative Templates > Network > DNS Client
+
+
 
 
 
