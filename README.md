@@ -32,6 +32,25 @@ The best defense against LLMNR and NBT-NS poisoning is to disable these protocol
 ### Disable LLMNR:
 1. Open the **Group Policy Editor** (`gpedit.msc`).
 2. Navigate to:  Local Computer Policy > Computer Configuration > Administrative Templates > Network > DNS Client
+3. Set **"Turn OFF Multicast Name Resolution"** to **Enabled**.
+
+### Disable NBT-NS:
+1. Open **Network Connections**.
+2. Go to **Network Adapter Properties**.
+3. Select **TCP/IPv4 Properties** > **Advanced** tab > **WINS** tab.
+4. Choose **"Disable NetBIOS over TCP/IP"**.
+
+## Alternative Mitigation Strategies
+
+If disabling LLMNR/NBT-NS is not feasible, implement the following:
+
+- **Enforce Network Access Control (NAC)** to restrict unauthorized devices.
+- **Require Strong Passwords:**
+- Use passwords **longer than 14 characters**.
+- Avoid common words to prevent easy hash cracking.
+
+By implementing these mitigations, you can significantly reduce the risk of LLMNR/NBT-NS poisoning attacks.
+
 
 
 
