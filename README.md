@@ -18,6 +18,9 @@ Cracking the hash:
 Note: 
 ![image](https://github.com/user-attachments/assets/ff43987f-db9a-46ce-9166-b99b419ed069)
 
+Cracked Password is here:
+-------------------------------
+![image](https://github.com/user-attachments/assets/4997b66f-d12f-4ab6-8b6a-d72034514810)
 
 
 
