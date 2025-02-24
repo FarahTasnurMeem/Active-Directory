@@ -61,6 +61,12 @@ By implementing these mitigations, you can significantly reduce the risk of LLMN
 
 **Relay Attacks:**
 ---------------------------
+1. Check if the network is allowing to share.
+2. Turn off SMB and HTTP
+![image](https://github.com/user-attachments/assets/1a3ba50d-4a8f-4b93-85a9-3b155f7c6b25)
+
+
+
 
 
 
