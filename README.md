@@ -67,6 +67,9 @@ By implementing these mitigations, you can significantly reduce the risk of LLMN
 3. Turn off SMB and HTTP
 ![image](https://github.com/user-attachments/assets/1a3ba50d-4a8f-4b93-85a9-3b155f7c6b25)
 
+4.![image](https://github.com/user-attachments/assets/231402a1-c536-4984-8f95-2a8fa64d8a0e)
+
+
 
 
 
