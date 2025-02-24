@@ -59,6 +59,8 @@ If disabling LLMNR/NBT-NS is not feasible, implement the following:
 
 By implementing these mitigations, you can significantly reduce the risk of LLMNR/NBT-NS poisoning attacks.
 
+**Relay Attacks:**
+---------------------------
 
 
 
