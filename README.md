@@ -1,5 +1,11 @@
 # Hacking-Active-Directory
 
+
+ Hi, Today I am going to set my lab for active directory. Here, I have a windows server 2016 as my domain controller, and two machines windows 10 enterprise as my users. One of the machines, I have allocated to peter parker and another one to Frank castle. Heres 
+
+
+
+
 **Connected Users/devices to the active directory:**
 ![image](https://github.com/user-attachments/assets/c99c2e39-b36a-428b-a5a4-5920a2b904e9)
 
