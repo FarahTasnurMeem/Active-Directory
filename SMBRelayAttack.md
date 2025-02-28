@@ -17,7 +17,6 @@ Example of setting the target IP:
 
 --------------
 
-
 ![Image](https://github.com/user-attachments/assets/d7f2b8f1-7df7-414c-855d-4f1f0c92688f)
 
 ---
@@ -45,8 +44,29 @@ Once the attack is successful, you will capture the hash from the intercepted SM
 ### Next Steps:
 Once the hash is captured, you can use tools like **John the Ripper** or **Hashcat** to crack the password associated with the hash, gaining unauthorized access to the system.
 
+---
 
 ## Mitigation Strategies:
+To defend against SMB relay attacks, consider implementing the following strategies:
+
+1. **Disable SMBv1**: SMBv1 is vulnerable to relay attacks. Ensure that SMBv2 or SMBv3 is enabled and SMBv1 is disabled across all systems.
+   - To disable SMBv1, use the following command:
+     ```bash
+     sc config lanmanworkstation depend= bowser/mrxsmb20/nsi
+     sc config mrxsmb10 start= disabled
+     ```
+   
+2. **Use SMB Signing**: Enable SMB signing to help prevent attackers from tampering with SMB communication. This can be configured via group policy settings.
+   
+3. **Implement Network Segmentation**: Separate critical systems and resources from general network access. This limits the exposure of sensitive systems to potential attacks.
+   
+4. **Enable Windows Defender Firewall**: Configure firewall rules to restrict SMB traffic to only trusted machines, reducing the risk of attack from external systems.
+   
+5. **Require Mutual Authentication**: Enforce mutual authentication to ensure that both the client and server authenticate each other before the session begins.
+   
+6. **Patch Vulnerabilities Regularly**: Regularly update and patch systems to address known vulnerabilities that could be exploited for relay attacks.
+   
+7. **Use VPNs for Remote Access**: Require the use of Virtual Private Networks (VPNs) for secure remote access, ensuring encrypted communications that cannot be easily intercepted or relayed.
 
 To protect against SMB relay attacks, implement the following mitigations:
 - **Use SMB signing**: Enforce the use of SMB signing to verify that SMB packets come from a trusted source.
