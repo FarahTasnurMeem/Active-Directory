@@ -1,7 +1,18 @@
 # Hacking-Active-Directory
 
+**Seting up Active Directory**
+---------
 
- Hi, Today I am going to set my lab for active directory. Here, I have a windows server 2016 as my domain controller, and two machines windows 10 enterprise as my users. One of the machines, I have allocated to peter parker and another one to Frank castle. Heres 
+ Hi, Today I am going to set my lab for active directory. Here, I have a windows server 2016 as my domain controller, and two machines windows 10 enterprise as my users. One of the machines, I have allocated to peter parker and another one to Frank castle. 
+
+**Installation: **
+Install machines in vmware or vitualbox. I am using the new free version of Vmware workstation pro. Below are the setting you want for your machines: 
+(I suggest not keeping the floppy disk since its an extra in windows)
+![image](https://github.com/user-attachments/assets/31080a4a-5aa9-4445-a509-24538497e76b)
+![image](https://github.com/user-attachments/assets/8feaaab0-2423-4ce7-b25d-f28c071075cf)
+![image](https://github.com/user-attachments/assets/01cdc2da-a693-457a-a310-a372512db347)
+
+
 
 
 
