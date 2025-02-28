@@ -12,8 +12,9 @@ Install machines in vmware or vitualbox. I am using the new free version of Vmwa
 ![image](https://github.com/user-attachments/assets/8feaaab0-2423-4ce7-b25d-f28c071075cf)
 ![image](https://github.com/user-attachments/assets/01cdc2da-a693-457a-a310-a372512db347)
 
-
-
+**Settings In Kali:**
+-------------
+1. Install Pimpmykali : https://github.com/Dewalt-arch/pimpmykali
 
 
 
