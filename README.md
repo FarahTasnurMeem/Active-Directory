@@ -47,7 +47,9 @@ Install machines in vmware or vitualbox. I am using the new free version of Vmwa
  ![image](https://github.com/user-attachments/assets/c9c3e191-5755-44f0-9c47-ab8a9dc11174)
  • Now I can see list of in Us secuirty in Users under Farah.local, Here I would like to create a new group. So right click in Farah.local Select New -> Organizational Unit and name it groups.Here, except administrator and Guest I am transfering all to the folder groups.
  ![image](https://github.com/user-attachments/assets/25c568c7-ee7f-4b0d-8320-d3736c2fbd89)
-
+• You can edit all information from here
+![image](https://github.com/user-attachments/assets/0eea9b07-7cef-47b2-b1c3-ed539228a856)
+• Now lets create new users
 
 
 
