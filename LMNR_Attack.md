@@ -1,3 +1,11 @@
+# LLMNR Poisoning
+
+**LLMNR (Link-Local Multicast Name Resolution)** poisoning is a common attack method where an attacker on the same network can poison the LLMNR cache, leading to credential theft or Man-in-the-Middle (MitM) attacks. This technique exploits the **LLMNR** protocol, which is used by Windows to resolve hostnames in the absence of DNS servers.
+
+In this section, I will walk you through the steps of performing an **LLMNR poisoning attack** and show how an attacker can capture and crack password hashes, enabling them to access sensitive information. I will also explain the best mitigation strategies to secure your network against such attacks.
+
+---
+
 **LLMNR Poisoning:** 
 ----------------------------------------------
 ![image](https://github.com/user-attachments/assets/06da6b8c-7536-4fc8-bb3e-83adb0b13f11)
