@@ -1,14 +1,19 @@
-**Relay Attacks:**
----------------------------
-1. Check if the network is allowing to share.
-2. Set ip of peter in target.txt ![image](https://github.com/user-attachments/assets/d7f2b8f1-7df7-414c-855d-4f1f0c92688f)
+# SMB Relay Attack
 
-3. Turn off SMB and HTTP
-![image](https://github.com/user-attachments/assets/1a3ba50d-4a8f-4b93-85a9-3b155f7c6b25)
+### Relay Attacks:
+This section outlines the steps for performing an **SMB Relay Attack** to exploit vulnerabilities in the SMB protocol. The goal is to relay authentication requests to gain unauthorized access to network resources.
 
-4.![image](https://github.com/user-attachments/assets/7387ea27-9de6-436a-85ad-affcc7100a5a)
+---
 
+### 1. Check if the network allows sharing:
+Before proceeding, ensure that the network is configured to allow file sharing via SMB. This step is crucial for the attack to work, as SMB sharing must be enabled for the attack to succeed.
 
+---
+
+### 2. Set the IP of the target (Peter's machine):
+Next, set the IP address of the target machine (Peter's machine) in the `target.txt` file. This file will store the target information used for the SMB relay attack.
+
+Example of setting the target IP:
 
 --------------
 
