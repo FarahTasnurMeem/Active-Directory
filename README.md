@@ -3,9 +3,18 @@
 **Seting up Active Directory**
 ---------
 
- Hi, Today I am going to set my lab for active directory. Here, I have a windows server 2016 as my domain controller, and two machines windows 10 enterprise as my users. One of the machines, I have allocated to peter parker and another one to Frank castle. 
+ Hi, Today I am going to set my lab for active directory. Here, I have a windows server 2019 as my domain controller, and two machines windows 10 enterprise as my users. One of the machines, I have allocated to peter parker and another one to Frank castle. 
+ 
+• Lab
+1 Windows Server 2019
+2 Windows 10 Enterprise (Machine 1)
+3. WIndows 10 Enterprise (Machine 2) 
+Requirements (minimum)
+• 60 GB Disk Space
+• 16 GB RAM
 
 **Installation: **
+
 Install machines in vmware or vitualbox. I am using the new free version of Vmware workstation pro. Below are the setting you want for your machines: 
 (I suggest not keeping the floppy disk since its an extra in windows)
 ![image](https://github.com/user-attachments/assets/31080a4a-5aa9-4445-a509-24538497e76b)
@@ -14,7 +23,13 @@ Install machines in vmware or vitualbox. I am using the new free version of Vmwa
 
 **Settings In Kali:**
 -------------
-1. Install Pimpmykali : https://github.com/Dewalt-arch/pimpmykali
+1. Install Pimpmykali : https://github.com/Dewalt-arch/pimpmykali (I installed in my opt folder)
+
+
+**Now lets start setting up our active directory: **
+• In windows Server 2019, setup active directory domain services. 
+• In Server Manager, click Manage, select Add Roles and Features, choose Server Roles, select Active Directory Domain Services, and click Install.
+![image](https://github.com/user-attachments/assets/a1f726ef-f542-43b3-a7c6-b8c4749694cb)
 
 
 
