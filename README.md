@@ -25,11 +25,21 @@ Install machines in vmware or vitualbox. I am using the new free version of Vmwa
 -------------
 1. Install Pimpmykali : https://github.com/Dewalt-arch/pimpmykali (I installed in my opt folder)
 
-**Start setting up our active directory:**
+**Start setting up our active directory Domain controller ( windows Server 2019:**
 ------
+• Rename you PC by search view your PC name 
+![image](https://github.com/user-attachments/assets/9d0e298a-fd29-4e17-9f2c-880ffd4706cd)
+
 • In windows Server 2019, setup active directory domain services. 
 • In Server Manager, click Manage, select Add Roles and Features, choose Server Roles, select Active Directory Domain Services, and click Install.
 ![image](https://github.com/user-attachments/assets/a1f726ef-f542-43b3-a7c6-b8c4749694cb)
+• Click the popped-up notification, then in Deployment Configuration, select Add a new forest,I entered farah.local as the root domain name, set a DSRM Password, click Next, and reboot your machine after completion.
+
+
+
+
+
+
 
 
 
