@@ -1,9 +1,9 @@
 ## Setting up Active Directory
 ---
 
-In this file, I will guide you through the process of setting up an **Active Directory** environment using **Windows Server 2019** as the domain controller and **Windows 10 Enterprise** as client machines. This lab setup will serve as the foundation for a series of penetration testing exercises, where you'll learn to exploit vulnerabilities and secure Active Directory networks.
+In this file, I will guide you through the process of setting up an **Active Directory** environment using **Windows Server 2019** as the domain controller and **Windows 10 Enterprise** as the client machines. This lab setup will serve as the foundation for a series of penetration testing exercises, where you'll learn to exploit vulnerabilities and secure Active Directory networks.
 
-The primary goal of this setup is to create a controlled environment where various attacks on Active Directory can be tested. By following this guide, you’ll develop hands-on skills, gaining a deeper understanding of how Active Directory functions, how to secure it, and how attackers may exploit its vulnerabilities.
+The primary goal of this setup is to create a controlled environment where various attacks on Active Directory can be tested. By following this guide, you’ll gain hands-on experience, deepen your understanding of how Active Directory functions, learn how to secure it, and explore how attackers may exploit its vulnerabilities.
 
 ---
 
@@ -11,7 +11,7 @@ The primary goal of this setup is to create a controlled environment where vario
 
 - **Domain Controller**: Windows Server 2019 (Active Directory Domain Controller)
 - **Client Machines**: Windows 10 Enterprise (Two machines for user setup)
-  
+
 The following sections will walk you through the detailed steps to install and configure your Active Directory lab, set up the domain controller, create users, and configure domain policies.
 
 ---
@@ -22,8 +22,11 @@ The following sections will walk you through the detailed steps to install and c
 - Basic understanding of **Active Directory** and **networking**
 - Administrative access to configure **Windows Server 2019** and **Windows 10** machines
 
+---
 
-Hello! Today, I am setting up a lab for Active Directory. I have a **Windows Server 2019** acting as my domain controller and two **Windows 10 Enterprise** machines as user machines. One machine is assigned to **Peter Parker**, and the other to **Frank Castle**.
+Hello! Today, I am setting up a lab for Active Directory with the following setup:
+- A **Windows Server 2019** acting as the domain controller.
+- Two **Windows 10 Enterprise** machines acting as user machines. One machine is assigned to **Peter Parker**, and the other to **Frank Castle**.
 
 ### Lab Setup:
 1. **Windows Server 2019** (Domain Controller)
