@@ -36,7 +36,15 @@ You can disable SMB and HTTP by using the following steps:
 ### 4. Perform the relay attack:
 After configuring the target and disabling the necessary services, proceed with initiating the SMB relay attack. This step intercepts the SMB authentication request and relays it to the attacker machine, allowing unauthorized access.
 
+Once the attack is successful, you will capture the hash from the intercepted SMB authentication request. This hash can then be used for further exploitation, such as cracking the password or performing pass-the-hash attacks.
+
 ![Image](https://github.com/user-attachments/assets/7387ea27-9de6-436a-85ad-affcc7100a5a)
+*Here, the screenshot shows that the hash has been successfully captured from the SMB relay attack.*
+
+---
+
+### Next Steps:
+Once the hash is captured, you can use tools like **John the Ripper** or **Hashcat** to crack the password associated with the hash, gaining unauthorized access to the system.
 
 ---
 
