@@ -68,25 +68,30 @@ Open Cmd and run this command:
 2. T Farah.local -Q */*
 
 **Set up Group Policy:** 
+Lets turn off windows Defender. 
 1. Search group policy and run as administrator
 2. Create a GPO in the domain Farah.local and name it disable windows defender.
 ![image](https://github.com/user-attachments/assets/e4284ac5-fbaf-4b50-a69f-eb7b6f769f07)
-
-3. Right Click Windows Defender -> Edit -> Computer Condiguration -> administrative templates -> windows Component -> Windows Defender Anitvirus -> Turn off windows Defender Antivirus
- 
+3. Right Click Windows Defender -> Edit -> Computer Condiguration -> administrative templates -> windows Component -> Windows Defender Anitvirus -> Turn off windows Defender Antivirus -> enabled -> Apply
 ![image](https://github.com/user-attachments/assets/95edc00e-4a7d-456a-b403-2eafb09f6f9d)
 ![image](https://github.com/user-attachments/assets/349cf94b-022d-4762-b2cd-2d2ef1fe9de5)
 
 
+**Joining our machines to the domain: ** 
+-----------
+1. Go to this PC and make a folder named share. Right click the folder -> Properties -> Click Sharing -> Share , Now share everything. 
+2. click on the network acess -> open internet and network access -> Click change network adapter , Right click on ethnet -> Select Properties,
+3.  Click Internet Protocol 4 and Put the Ip of the domain controller in Prefered DNS Server.
+![image](https://github.com/user-attachments/assets/2b499f07-b636-4c1a-8c73-1041c0c6e8a9)
 
+4. Search Domain then Click Connect -> join this device to a local active directory.
+5. Here put the Domain name of the domain controller  in join a domain (for me its Farah.local) , enter username and password and there you have it
+![image](https://github.com/user-attachments/assets/b8891885-08e8-47b6-81d7-a509728af4a8)
 
+Final Result: 
+1. Now You can login as admin in the user machines(windows enterprise 10), try logging in as Frank Castle and make Fcastle an admin in that machine , do the same for the 2nd machine login as Peter parker and make sure to make peter an admin there. You can also login as Farah/Administrator in both machines. 
 
-
-
-
-
-
-**Connected Users/devices to the active directory:**
+**Checking Connected Users/devices to the active directory:**
 ![image](https://github.com/user-attachments/assets/c99c2e39-b36a-428b-a5a4-5920a2b904e9)
 
 **LLMNR Poisoning:** 
