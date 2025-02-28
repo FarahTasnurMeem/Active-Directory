@@ -68,9 +68,5 @@ To defend against SMB relay attacks, consider implementing the following strateg
    
 7. **Use VPNs for Remote Access**: Require the use of Virtual Private Networks (VPNs) for secure remote access, ensuring encrypted communications that cannot be easily intercepted or relayed.
 
-To protect against SMB relay attacks, implement the following mitigations:
-- **Use SMB signing**: Enforce the use of SMB signing to verify that SMB packets come from a trusted source.
-- **Disable SMBv1**: SMBv1 is an outdated protocol that is vulnerable to various attacks, including relay attacks. Ensure it is disabled in your environment.
-- **Use strong authentication mechanisms**: Implement multi-factor authentication (MFA) and secure SMB configurations to prevent unauthorized access.
 
 By following these steps, you'll be able to execute the SMB relay attack and also understand the risks involved in such attacks.
