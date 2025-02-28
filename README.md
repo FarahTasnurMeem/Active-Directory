@@ -30,11 +30,12 @@ Install machines in vmware or vitualbox. I am using the new free version of Vmwa
 • Rename you PC by search view your PC name 
 ![image](https://github.com/user-attachments/assets/9d0e298a-fd29-4e17-9f2c-880ffd4706cd)
 
-• In windows Server 2019, setup active directory domain services. 
+• In windows Server 2019, setup active directory domain services.  
 • In Server Manager, click Manage, select Add Roles and Features, choose Server Roles, select Active Directory Domain Services, and click Install.
 ![image](https://github.com/user-attachments/assets/a1f726ef-f542-43b3-a7c6-b8c4749694cb)
 • Click the popped-up notification, then in Deployment Configuration, select Add a new forest,I entered farah.local as the root domain name, set a DSRM Password, click Next, and reboot your machine after completion.
-
+• Now its showing me Farah/Administrator which means its logging as domain of Farah as the administrator. Here, the password I have been using will still work.
+![image](https://github.com/user-attachments/assets/f4a4a5e1-6bed-4bb4-a5e6-e7174b7eb9bd)
 
 
 
