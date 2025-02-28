@@ -50,6 +50,39 @@ Install machines in vmware or vitualbox. I am using the new free version of Vmwa
 • You can edit all information from here
 ![image](https://github.com/user-attachments/assets/0eea9b07-7cef-47b2-b1c3-ed539228a856)
 • Now lets create new users
+![image](https://github.com/user-attachments/assets/426dc528-2ac5-40fb-88a6-3c53690f065f)
+• In the image above, you can see my users; Tony Stark is the domain admin and a member of all groups, just like the administrator (since we copied from the administrator), while Frank Castle and Peter Parker are normal users. 
+![image](https://github.com/user-attachments/assets/7b780efe-3f95-4139-be93-7320e1ce9869)
+![image](https://github.com/user-attachments/assets/440ee4f5-af60-4bd4-9e9b-43d4e0941c84)
+I also Created a Fake SQl Account coping from Tony Stark.(Its a bad practice)
+![image](https://github.com/user-attachments/assets/49e1eae7-c336-4757-99e6-89c157cb68ee)
+
+• Now go to files and Services, Click on shares, at the top click on Share then SMB share Quick, I named the Share me as Hackme.
+•  I did this because most domain controllers have files shares, I want to open port 139 and 445 so that I have SMB enables in this domain controller, so We can scan against it. Do the same in other machines as well.
+![image](https://github.com/user-attachments/assets/97dca761-46d1-49cf-a4a9-3c41f7f929dc)
+
+**Setup the SQl Services:**
+Open Cmd and run this command: 
+![image](https://github.com/user-attachments/assets/bfe8c083-4bd3-4888-8b64-a0d1259712d2)
+1. setspn-a HYDRA-DC/SQLService.Farah.local:60111 Farah\SQLService
+2. T Farah.local -Q */*
+
+**Set up Group Policy:** 
+1. Search group policy and run as administrator
+2. Create a GPO in the domain Farah.local and name it disable windows defender.
+![image](https://github.com/user-attachments/assets/e4284ac5-fbaf-4b50-a69f-eb7b6f769f07)
+
+3. Right Click Windows Defender -> Edit -> Computer Condiguration -> administrative templates -> windows Component -> Windows Defender Anitvirus -> Turn off windows Defender Antivirus
+ 
+![image](https://github.com/user-attachments/assets/95edc00e-4a7d-456a-b403-2eafb09f6f9d)
+![image](https://github.com/user-attachments/assets/349cf94b-022d-4762-b2cd-2d2ef1fe9de5)
+
+
+
+
+
+
+
 
 
 
