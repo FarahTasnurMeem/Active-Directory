@@ -1,4 +1,3 @@
-# Hacking-Active-Directory
 
 ## Active Directory Security Testing Lab
 
