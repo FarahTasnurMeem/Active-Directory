@@ -113,19 +113,9 @@ Install the machines using **VMware** or **VirtualBox**. I am using the free ver
 
    ![SQL Command](https://github.com/user-attachments/assets/bfe8c083-4bd3-4888-8b64-a0d1259712d2)
 
-setspn -a HYDRA-DC/SQLService.Farah.local:60111 Farah\SQLService
+   ```bash
+   setspn -a HYDRA-DC/SQLService.Farah.local:60111 Farah\SQLService
 
-graphql
-Copy
-Edit
-
-Then query the service:
-
-T Farah.local -Q /
-
-markdown
-Copy
-Edit
 
 ## Set up Group Policy
 ------
