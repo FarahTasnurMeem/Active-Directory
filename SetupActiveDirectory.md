@@ -1,8 +1,6 @@
 ## Setting up Active Directory
 ---
 
-# Setting up Active Directory Lab
-
 In this file, I will guide you through the process of setting up an **Active Directory** environment using **Windows Server 2019** as the domain controller and **Windows 10 Enterprise** as client machines. This lab setup will serve as the foundation for a series of penetration testing exercises, where you'll learn to exploit vulnerabilities and secure Active Directory networks.
 
 The primary goal of this setup is to create a controlled environment where various attacks on Active Directory can be tested. By following this guide, you’ll develop hands-on skills, gaining a deeper understanding of how Active Directory functions, how to secure it, and how attackers may exploit its vulnerabilities.
