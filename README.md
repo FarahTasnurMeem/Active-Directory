@@ -25,7 +25,7 @@ Install machines in vmware or vitualbox. I am using the new free version of Vmwa
 -------------
 1. Install Pimpmykali : https://github.com/Dewalt-arch/pimpmykali (I installed in my opt folder)
 
-**Start setting up our active directory Domain controller ( windows Server 2019:**
+**Settings in active directory Domain controller ( windows Server 2019:**
 ------
 • Rename you PC by search view your PC name 
 ![image](https://github.com/user-attachments/assets/9d0e298a-fd29-4e17-9f2c-880ffd4706cd)
@@ -37,9 +37,16 @@ Install machines in vmware or vitualbox. I am using the new free version of Vmwa
 • Now its showing me Farah/Administrator which means its logging as domain of Farah as the administrator. Here, the password I have been using will still work.
 ![image](https://github.com/user-attachments/assets/f4a4a5e1-6bed-4bb4-a5e6-e7174b7eb9bd)
 
+**Settings in  windows 10 enterprize ( Same setting in both machines):*
+------------------------
+• Rename the machines, I have named one of my Machines "Sakib" and the other one "Sara".
 
-
-
+**Set up Users,Groups and Policies in Domain Controller:**
+• In Server Manager, click Tools and select Active Directory Users and Computers to manage users/groups, and Group Policy Management to configure policies.
+• You can see my domain controller is meem since I named my pC name for windows server 2019 is meem
+ ![image](https://github.com/user-attachments/assets/c9c3e191-5755-44f0-9c47-ab8a9dc11174)
+ • Now I can see list of in Us secuirty in Users under Farah.local, Here I would like to create a new group. So right click in Farah.local Select New -> Organizational Unit and name it groups.Here, except administrator and Guest I am transfering all to the folder groups.
+ ![image](https://github.com/user-attachments/assets/25c568c7-ee7f-4b0d-8320-d3736c2fbd89)
 
 
 
